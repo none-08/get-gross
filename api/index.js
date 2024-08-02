@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const getTripsByID = require('./getTrips');
-const transformTrip = require('./transformTrip');
+const getTripsByID = require('../getTrips');
+const transformTrip = require('../transformTrip');
 const app = express();
 const port = 3000;
 
